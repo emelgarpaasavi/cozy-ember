@@ -30,7 +30,7 @@
 
 .content {
     display: flex;
-    padding-top: 120px;
+
     flex-direction: column;
     color: #1A243D;
 }
@@ -85,23 +85,21 @@
         height: 500px;
     }
 
-    .text_slideshow {
-        display: block;
-    }
-
     .content {
-        display: block;
         padding-top: 70%;
-        padding-left: 2%;
         padding-right: 2%;
+        width: 350px;
     }
 
     .content h2 {
+        padding-left: 10%;
         font-size: 21px;
     }
 
     .content p {
+        padding-left: 10%;
         font-size: 16px;
+        width: 300px;
     }
 }
 
@@ -109,7 +107,7 @@
 @media only screen and (min-width: 1100px) {
     .products .container {
         width: 1158px;
-        height: 550px;
+        height: 450px;
     }
 
     .text_slideshow h1{
@@ -119,8 +117,8 @@
     .image_slideshow img {
         border-top-left-radius: 50px;
         border-bottom-left-radius: 50px;
-        max-width: 550px;
-        height: 550px;
+        max-width: 450px;
+        height: 450px;
         position: absolute;
         opacity: 0;
     }
@@ -130,14 +128,18 @@
         padding-top: 15%;
         flex-direction: column;
         color: #1A243D;
+        width: 500px;
     }
 
     .content h2 {
+        padding-left: 0%;
         font-size: 31px;
     }
 
     .content p {
+        padding-left: 0%;
         font-size: 21px;
+        width: 450px;
     }
 
     .text_slideshow {

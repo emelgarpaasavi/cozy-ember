@@ -43,7 +43,6 @@ export default function ProductsSlideShow() {
         </div>
         <div className={classes.text_slideshow}>
           <div className={classes.content}>
-            <h1>Our Best-Selling Scents</h1>
             {products.map((item, index) => (
               <div key={index}>
                 <h2 className={index === currTextIndex ? classes.active : ""}>

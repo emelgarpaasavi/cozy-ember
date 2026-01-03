@@ -106,9 +106,14 @@
         margin-right: 15px;
     }
 
+    .products {
+        display: flex;
+        flex-direction: column;
+    }
+
     .product_details .text {
         margin: 20px;
-        width: 15px;
+        width: 150px;
     }
 
     .product_details h2 {
@@ -117,6 +122,10 @@
 
     .product_details p {
         font-size: 12px;
+    }
+
+    .product_price {
+        margin-left: 10%;
     }
 
     .product_price h2 {
@@ -142,6 +151,11 @@
         width: 150px;
     }
 
+    .products {
+        display: flex;
+        flex-direction: row;
+    }
+
     .product_details .text {
         width: 200px;
     }
@@ -152,6 +166,10 @@
 
     .product_details p {
         font-size: 16px;
+    }
+
+    .product_price {
+        margin-left: 0%;
     }
 
     .product_price h2 {
@@ -167,6 +185,6 @@
     }
 
     .cart_details hr {
-        width: 600px;
+        width: 620px;
     }
 }

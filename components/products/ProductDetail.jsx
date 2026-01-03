@@ -37,7 +37,7 @@ export default function ProductDetail({ product, addToCart, isPending }) {
         />
         <Image
           src={ isChanged ? product.lifestyle : product.main}
-          width={400}
+          width={300}
           alt={product.alt}
           loading="eager"
           onClick={handleChangeImage}
