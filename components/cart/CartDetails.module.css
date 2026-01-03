@@ -22,7 +22,6 @@
 .cart_details .quantity {
     display: flex;
     align-items: center;
-    width: 150px;
 }
 
 .cart_details .quantity img {
@@ -108,19 +107,31 @@
 
     .product_details .text {
         margin: 20px;
-        width: 20px;
+        width: 15px;
+    }
+
+    .product_details h2 {
+        font-size: 16px;
+    }
+
+    .product_details p {
+        font-size: 12px;
+    }
+
+    .product_price h2 {
+        font-size: 16px;
     }
 
     .cart_details h1 {
-        width: 375px;
+        width: 340px;
     }
 
     .cart_details .checkout {
-        width: 375px;
+        width: 340px;
     }
 
     .cart_details hr {
-        width: 375px;
+        width: 350px;
     }
 }
 
@@ -132,6 +143,18 @@
 
     .product_details .text {
         width: 200px;
+    }
+
+    .product_details h2 {
+        font-size: 21px;
+    }
+
+    .product_details p {
+        font-size: 16px;
+    }
+
+    .product_price h2 {
+        font-size: 21px;
     }
 
     .cart_details h1 {

@@ -70,7 +70,7 @@
     }
 
     .image_slideshow img {
-        max-width: 500px;
+        max-width: 450px;
         object-fit: cover;
         height: 250px;
         border-radius: 50px;
@@ -81,7 +81,7 @@
     .products .container {
         display: flex;
         flex-direction: column;
-        width: 500px;
+        width: 450px;
         height: 250x;
     }
 
