@@ -1,5 +1,5 @@
 .products .container {
-    width: 1158px;
+    max-width: 1158px;
     height: 598px;
     position: relative;
     border-radius: 50px;

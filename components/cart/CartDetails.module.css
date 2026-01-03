@@ -100,26 +100,36 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 300px) {
+    .cart_details .quantity {
+        width: 100px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
     .product_details .text {
         margin: 20px;
-        width: 50px;
+        width: 20px;
     }
 
     .cart_details h1 {
-        width: 450px;
+        width: 375px;
     }
 
     .cart_details .checkout {
-        width: 450px;
+        width: 375px;
     }
 
     .cart_details hr {
-        width: 450px;
+        width: 375px;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1100px) {
+    .cart_details .quantity {
+        width: 150px;
+    }
+
     .product_details .text {
         width: 200px;
     }

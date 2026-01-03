@@ -52,9 +52,20 @@ footer .container {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 300px) {
+    footer .container {
+        height: 420px;
+    }
+
     .contacts { 
+        display: flex;
+        flex-direction: column;
         margin-top: 20px;
     }
+
+    .contact_us {
+        margin-top: 20px;
+    }
+
     .contacts_container {
         display: flex;
         flex-direction: column;
@@ -64,6 +75,19 @@ footer .container {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    footer .container {
+        height: 300px;
+    }
+
+    .contacts { 
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact_us {
+        margin-top: 0px;
+    }
+
     .contacts_container {
         display: flex;
         flex-direction: row;
