@@ -88,9 +88,6 @@ export default function Cart(props) {
           "Content-type": "application/json",
         },
       });
-
-      console.log("Hey heypiberthdery!")
-
       // triggers to show a success modal
       setIsOrdered(true);
     }

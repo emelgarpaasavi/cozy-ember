@@ -17,7 +17,7 @@ export default async function handler(req, res) {
     client.close();
 
     // format the data
-    const formattedCartData = cartData.map((cart) => ({
+    const formattedCartData = cartData?.map((cart) => ({
       id: cart._id.toString(),
       name: cart.name,
       price: cart.price,

@@ -29,7 +29,7 @@ export default function HomeNavigation({ cartData }) {
     };
   }, []);
 
-  const totalItemsInCart = cartData.reduce(
+  const totalItemsInCart = cartData?.reduce(
     (acc, item) => item.quantity + acc,
     0
   );
