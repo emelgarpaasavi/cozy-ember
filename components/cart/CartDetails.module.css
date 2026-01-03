@@ -43,7 +43,6 @@
 .cart_details h1 {
     font-size: 36px;
     margin-bottom: 25px;
-    width: 600px;
 }
 
 .cart_details p {
@@ -63,7 +62,6 @@
 
 .cart_details hr {
     border: 1px solid #1A243D;
-    width: 600px;
 }
 
 .cart_details button {
@@ -78,7 +76,6 @@
     display: flex;
     flex-direction: column;
     align-items: end;
-    width: 600px;
 }
 
 .total_price {
@@ -105,19 +102,19 @@
 @media only screen and (min-width: 300px) {
     .product_details .text {
         margin: 20px;
-        width: 150px;
+        width: 50px;
     }
 
     .cart_details h1 {
-        width: 500px;
+        width: 450px;
     }
 
     .cart_details .checkout {
-        width: 550px;
+        width: 450px;
     }
 
     .cart_details hr {
-        width: 550px;
+        width: 450px;
     }
 }
 
