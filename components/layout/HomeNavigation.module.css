@@ -1,0 +1,41 @@
+.home_navigation {
+    position: absolute;
+}
+
+.home_navigation a {
+    color: #FFFFFF;
+}
+
+.navigation {
+  display: flex; /* Makes the element a flex container */
+  position: fixed; /* Fixes the element to the viewport */
+  width: 100%;
+  justify-content: space-between; /* Spaces out the child items evenly */
+  padding-top: 2%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  z-index: 2;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    cursor: pointer;
+}
+
+.menu a {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart img {
+    margin-left: 4px;
+}

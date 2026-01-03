@@ -1,3 +1,9 @@
+.products_display {
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+}
+
 .page {
   --background: #fafafa;
   --foreground: #fff;

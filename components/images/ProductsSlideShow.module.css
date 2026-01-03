@@ -1,0 +1,132 @@
+.products .container {
+    width: 1158px;
+    height: 598px;
+    position: relative;
+    border-radius: 50px;
+    background-color: rgba(206, 138, 57, 0.5);
+}
+
+.image_slideshow img {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    max-width: 534px;
+    height: 598px;
+    position: absolute;
+    opacity: 0;
+    transform: scale(1.01) translateX(-.1rem) rotate(-1deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.image_slideshow .active {
+    z-index: 1;
+    opacity: 1;
+    transform: scale(1) translateX(0) rotate(0);
+}
+
+.text_slideshow {
+    display: flex;
+    justify-content: end;
+}
+
+.content {
+    display: flex;
+    padding-top: 120px;
+    flex-direction: column;
+    color: #1A243D;
+}
+
+.text_slideshow h1{
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 500;
+    max-width: 600px;
+    margin-right: 0;
+}
+
+.text_slideshow h2{
+    font-size: 32px;
+    opacity: 0;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.text_slideshow p{
+    font-size: 20px;
+    opacity: 0;
+    position: absolute;
+    max-width: 450px;
+    margin-top: 80px;
+}
+
+.text_slideshow .active {
+    opacity: 1;
+    z-index: 1;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 300px) {
+    .text_slideshow h1{
+        font-size: 30px;
+    }
+
+    .image_slideshow img {
+        max-width: 500px;
+        object-fit: cover;
+        height: 250px;
+        border-radius: 50px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .products .container {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 250x;
+    }
+
+    .text_slideshow {
+        display: block;
+    }
+
+    .content {
+        display: block;
+        padding-top: 60%;
+        padding-left: 10%;
+        color: #1A243D;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .products .container {
+        width: 1158px;
+        height: 550px;
+    }
+
+    .text_slideshow h1{
+        font-size: 40px;
+    }
+
+    .image_slideshow img {
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        max-width: 550px;
+        height: 550px;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .content {
+        display: flex;
+        padding-top: 15%;
+        flex-direction: column;
+        color: #1A243D;
+    }
+
+    .text_slideshow {
+        display: flex;
+        justify-content: end;
+        padding-right: 10%;
+    }
+}

@@ -1,0 +1,141 @@
+.cart_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 20%;
+}
+
+.cart_details .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+.cart_details .products {
+    display: flex;
+}
+
+.cart_details .quantity {
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.cart_details .quantity img {
+    margin: 0;
+    cursor: pointer;
+}
+
+.delete_icon {
+    margin: 0;
+    cursor: pointer;
+}
+
+.product_price {
+    display: flex;
+    align-items: center;
+}
+
+.cart_details h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+    width: 600px;
+}
+
+.cart_details p {
+    font-size: 16px;
+    text-align: center;
+    width: 25px;
+}
+
+.cart_details img {
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.cart_details h2 {
+    font-size: 21px;
+}
+
+.cart_details hr {
+    border: 1px solid #1A243D;
+    width: 600px;
+}
+
+.cart_details button {
+    background-color: #1A243D;
+    cursor: pointer;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cart_details .checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 600px;
+}
+
+.total_price {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.total_price h2 {
+    margin-left: 20px;
+}
+
+.cart_details .product_details {
+    display: flex;
+    align-items: center;
+}
+
+.product_details .text {
+    margin: 20px;
+    width: 200px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 300px) {
+    .product_details .text {
+        margin: 20px;
+        width: 150px;
+    }
+
+    .cart_details h1 {
+        width: 500px;
+    }
+
+    .cart_details .checkout {
+        width: 550px;
+    }
+
+    .cart_details hr {
+        width: 550px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1100px) {
+    .product_details .text {
+        width: 200px;
+    }
+
+    .cart_details h1 {
+        width: 600px;
+    }
+
+    .cart_details .checkout {
+        width: 600px;
+    }
+
+    .cart_details hr {
+        width: 600px;
+    }
+}
