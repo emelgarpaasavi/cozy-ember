@@ -70,7 +70,7 @@
     }
 
     .image_slideshow img {
-        max-width: 450px;
+        max-width: 400px;
         object-fit: cover;
         height: 250px;
         border-radius: 50px;
@@ -81,7 +81,7 @@
     .products .container {
         display: flex;
         flex-direction: column;
-        width: 450px;
+        width: 400px;
         height: 250x;
     }
 
@@ -91,8 +91,9 @@
 
     .content {
         display: block;
-        padding-top: 60%;
-        padding-left: 10%;
+        padding-top: 70%;
+        padding-left: 2%;
+        padding-right: 2%;
         color: #1A243D;
     }
 }
